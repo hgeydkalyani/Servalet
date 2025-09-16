@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Simple Employee Form</title>
+</head>
+<body>
+  <h1>Employee Form</h1>
+  <form id="employeeForm" action="submit" method="post" enctype="multipart/form-data">
+    <!-- 1 -->
+    <label for="empId">Employee ID:</label><br>
+    <input id="empId" name="employeeId" type="text" required><br><br>
+
+    <!-- 2 -->
+    <label for="firstName">First Name:</label><br>
+    <input id="firstName" name="firstName" type="text" required><br><br>
+
+    <!-- 3 -->
+    <label for="lastName">Last Name:</label><br>
+    <input id="lastName" name="lastName" type="text" required><br><br>
+
+    <!-- 4 -->
+    <label for="email">Email:</label><br>
+    <input id="email" name="email" type="email" required><br><br>
+
+
+    <!-- 6 -->
+    <label for="dob">Date of Birth:</label><br>
+    <input id="dob" name="dob" type="date"><br><br>
+
+    <!-- 7 -->
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="">--Select--</option>
+      <option>Female</option>
+      <option>Male</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <!-- 8 -->
+    <label for="department">Department:</label><br>
+    <input id="department" name="department" type="text"><br><br>
+
+    <!-- 9 -->
+    <label for="designation">Designation:</label><br>
+    <input id="designation" name="designation" type="text"><br><br>
+
+    <!-- 10 -->
+    <label for="doj">Date of Joining:</label><br>
+    <input id="doj" name="dateOfJoining" type="date"><br><br>
+
+    
+    <!-- 12 -->
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3"></textarea><br><br>
+
+    <!-- 13 -->
+    <label for="city">City:</label><br>
+    <input id="city" name="city" type="text"><br><br>
+
+    <!-- 14 -->
+    <label for="state">State:</label><br>
+    <input id="state" name="state" type="text"><br><br>
+
+
+    <button type="submit">Submit</button>
+
+  </form>
+</body>
+</html>
+
+>
